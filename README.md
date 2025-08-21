@@ -6,17 +6,19 @@ This project aims to build a Deep Learning-based system for:
 - Providing accessibility output (TTS, Braille) for visually impaired users
 
 ## Project Structure
-HTR-Accessibility/
-│── data/ # datasets (IAM, Hindi, etc.)
-│── notebooks/ # Jupyter notebooks for experiments
-│── src/ # source code
-│ ├── preprocessing/ # image preprocessing scripts
-│ ├── models/ # deep learning models (CRNN, Transformers, etc.)
-│ ├── translation/ # translation module integration
-│ ├── accessibility/ # TTS and Braille conversion
-│ └── utils/ # helper functions
-│── requirements.txt # dependencies
-│── README.md # project overview
+
+└── HTR-Accessibility/
+    ├── data
+    ├── notebooks
+    ├── src
+    │   ├── accessibility
+    │   ├── models
+    │   ├── preprocessing
+    │   ├── translation
+    │   └── utils
+    ├── .gitignore
+    ├── README.md
+    └── requirements.txt
 
 ## Setup
 ```bash
