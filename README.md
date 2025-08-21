@@ -8,17 +8,17 @@ This project aims to build a Deep Learning-based system for:
 ## Project Structure
 ```bash
 └── HTR-Accessibility/
-    ├── data
-    ├── notebooks
-    ├── src
-    │   ├── accessibility
-    │   ├── models
-    │   ├── preprocessing
-    │   ├── translation
-    │   └── utils
+    ├── data/  # datasets (IAM, Hindi, etc.)
+    ├── notebooks/ # Jupyter notebooks for experiments
+    ├── src/ # source code
+    │   ├── accessibility # TTS and Braille conversion
+    │   ├── models # deep learning models (CRNN, Transformers, etc.)
+    │   ├── preprocessing # image preprocessing scripts
+    │   ├── translation # translation module integration
+    │   └── utils # helper functions
     ├── .gitignore
-    ├── README.md
-    └── requirements.txt
+    ├── README.md # project overview
+    └── requirements.txt # dependencies
 ```
 
 ## Setup
