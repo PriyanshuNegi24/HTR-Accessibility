@@ -6,7 +6,7 @@ This project aims to build a Deep Learning-based system for:
 - Providing accessibility output (TTS, Braille) for visually impaired users
 
 ## Project Structure
-
+```bash
 └── HTR-Accessibility/
     ├── data
     ├── notebooks
@@ -19,7 +19,9 @@ This project aims to build a Deep Learning-based system for:
     ├── .gitignore
     ├── README.md
     └── requirements.txt
+```
 
 ## Setup
 ```bash
 pip install -r requirements.txt
+```
